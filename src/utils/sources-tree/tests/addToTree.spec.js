@@ -259,7 +259,7 @@ describe("sources-tree", () => {
       expect(formatTree(tree)).toMatchSnapshot();
     });
 
-    xit("uses debuggeeUrl as default", () => {
+    it("uses debuggeeUrl as default", () => {
       const testData = [
         {
           url: "components/TodoTextInput.js"
